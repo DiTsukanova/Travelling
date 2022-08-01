@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h1 {
+    @extend %font-add;
+    @include font(80px, 96px, 700, $color-white)
+}
+
+h2 {
+    @extend %font-primary;
+    @include font(40px, 53px, 500, $color-orange);
+    text-align: center;
+}
+
+h3 {
+    @extend %font-primary;
+    @include font(35px, 42px, 400, $color-green) 
+}
+
+
+

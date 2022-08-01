@@ -1,0 +1,42 @@
+.footer {
+    background: url('/assets/img/story__bg.jpg') bottom/100% auto no-repeat;
+
+}
+.footer__description {
+    padding: 21px 0 19px 0;
+    @extend %font-primary;
+    @include font(16px, 21px, 500, $color-white);
+    text-align: center;
+
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    margin-left: 470px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.footer__linkInst {
+    display: block;
+    background: url('/assets/svg/instagram.svg');
+    width: 34px;
+    height: 34px;
+}
+.footer__linkVideo {
+    display: block;
+    background: url('/assets/svg/video.svg');
+    width: 34px;
+    height: 34px;
+}
+.footer__linkTw {
+    display: block;
+    background: url('/assets/svg/twitter.svg');
+    width: 34px;
+    height: 34px;
+}

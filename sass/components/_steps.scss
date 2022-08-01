@@ -1,0 +1,54 @@
+.steps {
+    padding-bottom: 97px;
+}
+.wrapper {
+}
+.steps__wrapper {
+}
+.steps__content {
+    padding: 0 11px;
+}
+.title {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.step {
+}
+.step__image {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.step__image_1 {
+    display: block;
+    background: url('/assets/svg/step1.svg') no-repeat;
+    background-position: center;
+    background-color: $color-orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.step__image_2 {
+    display: block;
+    background: url('/assets/svg/step2.svg') no-repeat;
+    background-position: center;
+    background-color: $color-orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.step__image_3 {
+    display: block;
+    background: url('/assets/svg/step3.svg') no-repeat;
+    background-position: center;
+    background-color: $color-orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.step__description {
+    @extend %font-add;
+    @include font(20px, 24px, 400, $color-green)
+}

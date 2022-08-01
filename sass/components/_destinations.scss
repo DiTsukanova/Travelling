@@ -1,0 +1,50 @@
+.destinations {
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.destinations__slider {
+    padding-top: 6px;
+    margin-left: -660px;
+    margin-bottom: 24px;
+}
+
+.slider {
+    display: flex;
+    column-gap: 60px;
+
+}
+
+.slider__element {
+    display: flex;
+    position: relative;
+}
+
+.slider__element span {
+    position: absolute;
+    top: 718px;
+    left: 15px;
+    @extend %font-primary;
+    @include font(32px, 42px, 500, $color-white)
+}
+
+.pagination {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.pagination__elem {
+    display: block;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    cursor: pointer;
+    background-color: $color-orange;
+    opacity: 0.5;
+}
+
+.destinations__button {
+    margin: 0 auto;
+}

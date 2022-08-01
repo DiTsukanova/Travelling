@@ -1,0 +1,44 @@
+
+.header__button {}
+
+.button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);  
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    background: $color-green;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: block;
+    background: url('/assets/svg/icon.svg');
+    width: 35px;
+    height: 22.5px;
+}
+
+.button__text {
+    margin-left: 12.5px;
+}
+
+
+.button_small {
+    width: 103px;
+    height: 41px;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.button_big {
+    width: 228px;
+    height: 59px;
+    padding: 13.5px 20px;
+    font-size: 24px;
+    line-height: 32px;
+}

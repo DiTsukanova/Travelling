@@ -1,0 +1,28 @@
+.header__navigation {
+    margin-left: -90px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+
+}
+.navigation__link {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+    padding: 0 30px;
+    cursor: pointer;
+    &:hover{
+       text-decoration: underline;
+       
+    }
+
+}

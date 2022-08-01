@@ -1,0 +1,31 @@
+.preview {
+    background: url('/assets/img/header__bg.jpg') 0 -90px/100% 100% no-repeat;
+    height: 685px;
+
+}
+.wrapper {
+}
+.preview__wrapper {
+}
+.preview__content {
+    padding-top: 32px;
+}
+.preview__title {
+    color: $color-white;
+    font-family: 'Aleo';
+    margin: 0;
+}
+.preview__text {
+    font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: $color-white;
+}
+.preview__form input {
+    width: 892px;
+height: 95px;
+border-radius: 16px;
+color: $color-orange;
+}
